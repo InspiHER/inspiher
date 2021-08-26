@@ -10,26 +10,9 @@
     
     <!--Additional-css-->
     <link rel="stylesheet" href="/assets/css/style.css">
+    
 </head>
 <body>
-    <!--<div class="wrapperMain">
-    <header>
-        <nav>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">InspiHer{TECH}</a>
@@ -69,54 +52,31 @@
     </header>
 
 
-    <!--Code goes here-->
+    <div class="sectionAbout">
+        <h2>Welcome to InspiHER{Tech} V1.0</h2>
+        <p>Are you a female undergraduate interested in the science & technology sector? Looking for a challenge to show your amazing skills?
+            The arena awaits you...
+            Dive into a world of Science and Technology with InspiHER{Tech} V1.0 and be a champion!
+            </p>
+    </div>
+    <div class="sectionWhatIs">
+        <h2>What is InspiHER{Tech} V1.0?</h2>
+        <p>InspiHER{Tech} V1.0 is an inter-university technical competition solely dedicated to female undergraduates. The IEEE WIE Affinity Group of SLTC strongly believes that girls in STEM need to be encouraged and empowered by giving them suitable platforms to show their capability. InspiHER{Tech} V1.0 is initiated to witness the rise of exemplary women professionals with strong leadership skills who can work together as a team and show their talents in the Science & Technology sector.</p>
+
+            <h3>The competition consists of 3 rounds namely,</h3>
+            <ul>
+            <li>Round 01 - InspiHER{CircuitriX}: Circuit Designing Project competition.</li>
+            
+            <li>Round 2 - InspiHER{MindFest}: Technical and General Knowledge Quiz.</li>
+            
+            <li>Round 3 - InspiHER{CodeWars}: Coding Competition.</li>
+            </ul>
+    </div>
     <!--<img src="https://cms-assets.tutsplus.com/uploads/users/107/posts/26488/final_image/41-space-scrolling-background850-2.jpg" alt="">-->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    <script>
-    $(document).scroll(function() { 
-        if($(window).scrollTop() === 0) {
-            $(".navbar").removeClass('bg-pink-half');
-            $(".navbar").addClass('bg-purple');
-        } else{
-            $(".navbar").removeClass('bg-purple');
-            $(".navbar").addClass('bg-pink-half');
-        }
-    });
-
-document.querySelectorAll('.dropdown-toggle').forEach(item => {
-  item.addEventListener('click', event => {
- 
-    if(event.target.classList.contains('dropdown-toggle') ){
-      event.target.classList.toggle('toggle-change');
-    }
-    else if(event.target.parentElement.classList.contains('dropdown-toggle')){
-      event.target.parentElement.classList.toggle('toggle-change');
-    }
-  })
-});
-    </script>
-        <div class="sectionAbout">
-            <h2>Welcome to InspiHER{Tech} V1.0</h2>
-            <p>Are you a female undergraduate interested in the science & technology sector? Looking for a challenge to show your amazing skills?
-                The arena awaits you...
-                Dive into a world of Science and Technology with InspiHER{Tech} V1.0 and be a champion!
-                </p>
-        </div>
-        <div class="sectionWhatIs">
-            <h2>What is InspiHER{Tech} V1.0?</h2>
-            <p>InspiHER{Tech} V1.0 is an inter-university technical competition solely dedicated to female undergraduates. The IEEE WIE Affinity Group of SLTC strongly believes that girls in STEM need to be encouraged and empowered by giving them suitable platforms to show their capability. InspiHER{Tech} V1.0 is initiated to witness the rise of exemplary women professionals with strong leadership skills who can work together as a team and show their talents in the Science & Technology sector.</p>
-
-                <h3>The competition consists of 3 rounds namely,</h3>
-                <ul>
-                <li>Round 01 - InspiHER{CircuitriX}: Circuit Designing Project competition.</li>
-                
-                <li>Round 2 - InspiHER{MindFest}: Technical and General Knowledge Quiz.</li>
-                
-                <li>Round 3 - InspiHER{CodeWars}: Coding Competition.</li>
-                </ul>
-        </div>
+    <script src="/assets/js/scroll.js"></script>
     </body>
 </html>
