@@ -4,6 +4,9 @@
     border: none;
     padding: 0;
     box-sizing: border-box;
+}
+
+.body {
     background: linear-gradient(#f110cc,#581699,#470888,#2a1144);
 }
 
