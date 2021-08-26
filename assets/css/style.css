@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.profile-menu .dropdown-menu {
+/*.profile-menu .dropdown-menu {
     right: 0;
     left: unset;
 }
@@ -45,7 +45,7 @@
 
 .bg-pink-half{
     background-color: #b9009a9e;
-}
+}*/
 
 /*Navigation Bar*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
