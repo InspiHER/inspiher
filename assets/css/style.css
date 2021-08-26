@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-/*.profile-menu .dropdown-menu {
+.profile-menu .dropdown-menu {
     right: 0;
     left: unset;
 }
@@ -45,10 +45,10 @@
 
 .bg-pink-half{
     background-color: #b9009a9e;
-}*/
+}
 
 /*Navigation Bar*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html {
   height:100%;
@@ -87,3 +87,4 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
+*/
