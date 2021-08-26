@@ -1,6 +1,17 @@
 * { 
+<<<<<<< Updated upstream
     display: block; 
     margin: 0 auto;
+=======
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: linear-gradient(#f88de6,#bc10f1,#581699,#470888);
+>>>>>>> Stashed changes
 }
 
 .profile-menu .dropdown-menu {
@@ -18,6 +29,7 @@
 }
 
 .navbar {
+    box-sizing: border-box;
     position: fixed !important;
     top: 0;
     left: 0;
