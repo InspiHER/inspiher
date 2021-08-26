@@ -1,4 +1,7 @@
-* { display: block; margin: 0 auto; }
+* { 
+    display: block; 
+    margin: 0 auto;
+}
 
 .profile-menu .dropdown-menu {
     right: 0;
