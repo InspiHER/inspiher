@@ -128,7 +128,7 @@ header, section {
 }
 @media (max-width: 1200px) {
 	.front-image-box {
-		margin-bottom: 7em;
+		margin-bottom: 6em;
 	}
 	.first-image {
 		margin-bottom: 8em;
@@ -137,11 +137,14 @@ header, section {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 5px;
 }
 
 .container {
   padding: 0 16px;
+}
+
+.team-code {
+  padding: 3em;
 }
 
 .container::after,
@@ -164,13 +167,20 @@ header, section {
 }
 
 .team-card {
+  justify-content: center;
+  padding: .5em;
   height: 100%;
-  width: auto;
+  width: 340px;
 }
 
 .team-image {
   border-top-right-radius: 3em;
   border-top-left-radius: 3em;
+}
+
+.team-image img {
+  height: 400px;
+  width: 340px;
 }
 
 .team-textbox {
