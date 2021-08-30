@@ -137,6 +137,7 @@ header, section {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
 }
 
 .container {
@@ -154,12 +155,17 @@ header, section {
   color: grey;
 }
 
+.col-xl-5 my-1 {
+  margin: 1em;
+}
+
 .col-xl-4 {
   margin-bottom: 1em;
 }
 
 .team-card {
   height: 100%;
+  width: auto;
 }
 
 .team-image {
