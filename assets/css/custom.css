@@ -169,7 +169,7 @@ header, section {
 
 .team-textbox {
   height: auto;
-  background: black;
+  background: #2a1144;
   border-bottom-right-radius: 3em;
   border-bottom-left-radius: 3em;
 }
